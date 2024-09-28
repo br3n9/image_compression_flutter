@@ -24,6 +24,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace "id.co.eyro.image_compression_flutter"
     compileSdkVersion 33 // Mise à jour vers une version plus récente
     
     defaultConfig {
